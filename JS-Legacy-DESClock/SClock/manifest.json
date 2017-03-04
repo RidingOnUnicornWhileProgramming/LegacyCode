@@ -1,0 +1,20 @@
+{
+  "package": {
+    "name": "Simple Clock",
+    "version": "0.1.0",
+    "description": "A simple clock widget. Code example. Recommended size 40x30 px",
+    "image": null,
+    "execType": "standalone",
+    "execFiles": {
+      "win32": "SClock.exe"
+    }
+  },
+  "settings": [
+    [
+      "format",
+      "Time format",
+      "Check out <http://www.csharp-examples.net/string-format-datetime/>.",
+      "HH:mm"
+    ]
+  ]
+}

@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Window
+	x:Class="DE.UX.PanelSettings" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+	Title="Panel Settings"
+	WindowStyle="ToolWindow"
+	Width="543"
+	Height="400"
+	ResizeMode="NoResize">
+	<Grid>
+		<ListBox
+			x:Name="itemOrder"
+			Margin="10,40,0,25"
+			HorizontalAlignment="Left"
+			Width="215"></ListBox>
+		<Button
+			x:Name="UP"
+			Content="Up"
+			Margin="240,50,0,0"
+			Click="UP_Click"
+			HorizontalAlignment="Left"
+			Width="40"
+			Height="20"
+			VerticalAlignment="Top"
+			RenderTransformOrigin="-0.333,0.5" />
+		<Button
+			x:Name="DOWN"
+			Content="Down"
+			Click="DOWN_Click"
+			Width="40"
+			Grid.Column="0"
+			Grid.Row="0"
+			HorizontalAlignment="Left"
+			VerticalAlignment="Stretch"
+			Margin="240,85,0,263" />
+		<ListBox
+			x:Name="pluginOrder"
+			Margin="0,40,27,25"
+			HorizontalAlignment="Right"
+			Width="215" />
+		<Label
+			x:Name="label"
+			Content="Current Items"
+			HorizontalAlignment="Left"
+			Margin="10,9,0,0"
+			VerticalAlignment="Top" />
+		<Label
+			x:Name="label1"
+			Content="Available Items"
+			HorizontalAlignment="Left"
+			Margin="295,9,0,0"
+			VerticalAlignment="Top" />
+		<Button
+			x:Name="Add"
+			Click="Add_Click"
+			Width="40"
+			Grid.Column="0"
+			Grid.Row="0"
+			HorizontalAlignment="Left"
+			VerticalAlignment="Stretch"
+			Margin="240,120,0,229"
+			Content="+" />
+		<Button
+			x:Name="rem"
+			Width="40"
+			Grid.Column="0"
+			Grid.Row="0"
+			HorizontalAlignment="Left"
+			VerticalAlignment="Stretch"
+			Margin="240,147,0,202"
+			Content="-"
+			Click="rem_Click" />
+	</Grid>
+</Window>

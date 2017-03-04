@@ -1,0 +1,19 @@
+﻿<Application x:Class="WinDE.App"
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	StartupUri="Window1.xaml">
+	<Application.Resources>
+		<Storyboard x:Key="OnHide">
+        <DoubleAnimation Storyboard.TargetProperty="Opacity" Duration="0:0:0:5" To="0.0"/>
+        <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="Visibility">
+            <DiscreteObjectKeyFrame KeyTime="0:0:0:2" Value="{x:Static Visibility.Hidden}"/>
+        </ObjectAnimationUsingKeyFrames>
+    </Storyboard>
+    <Storyboard x:Key="OnShow">
+        <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="Visibility">
+            <DiscreteObjectKeyFrame KeyTime="0:0:0:0" Value="{x:Static Visibility.Visible}"/>
+        </ObjectAnimationUsingKeyFrames>
+        <DoubleAnimation Storyboard.TargetProperty="Opacity" Duration="0:0:0:5" To="1"/>
+    </Storyboard> 
+	</Application.Resources>
+</Application>

@@ -1,0 +1,39 @@
+{
+  "style": [ // remove all comments in order to parse JSON
+    "0", "0", "0", // background RGB
+    "30", "30", "30", // background hover RGB
+    "10", // preffered font size
+    "255", "255", "255", // text RGB
+    "200", "200", "200", // text hover RGB
+    "system", // font file (system = search in system dir)
+    "Segoe UI"
+  ],
+  "items": [
+    {
+      "type": "widget",
+      "widgetClass": "some.widget",
+      "width": 50,
+      "height": 30,
+      "posX": 100,
+      "posY": 100,
+      "settings": { }
+    },
+    {
+      "type": "panel",
+      "name": "Lewy monitor",
+      "items": [
+        {
+          "type": "widget",
+          "widgetClass": "another.widget",
+          "width": 50,
+          "height": 30,
+          "posX": 100,
+          "posY": 100,
+          "settings": {
+            "oneSetting": "1"
+          }
+        }
+      ]
+    }
+  ]
+}

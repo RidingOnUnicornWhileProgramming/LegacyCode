@@ -1,0 +1,54 @@
+{
+  "style": [
+    "0", "0", "0",
+    "30", "30", "30",
+    "10",
+    "255", "100", "100",
+    "200", "200", "200",
+    "system",
+    "Comic Sans MS"
+  ],
+  "items": [
+    {
+      "type": "widget",
+      "widgetClass": "sclock",
+      "width": 70,
+      "height": 50,
+      "posX": 1030,
+      "posY": 1850,
+      "settings": {
+        "format": "HH:mm"
+      }
+    },
+    {
+      "type": "panel",
+      "name": "Left screen",
+      "width": 1920,
+      "height": 50,
+      "posX": 1030,
+      "posY": 0,
+      "items": [
+        {
+          "type": "widget",
+          "widgetClass": "sstart",
+          "width": 50,
+          "height": 50,
+          "posX": 1030,
+          "posY": 0,
+          "settings": {
+            "useFontColor": "1"
+          }
+        },
+        {
+          "type": "widget",
+          "widgetClass": "detb",
+          "width": 1800,
+          "height": 50,
+          "posX": 1030,
+          "posY": 50,
+          "settings": {}
+        }
+      ]
+    }
+  ]
+}

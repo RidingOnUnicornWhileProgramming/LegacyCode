@@ -1,0 +1,13 @@
+<Window x:Class="DE.UX.Panel"
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	Title="WinDEPanel" MouseRightButtonDown="Window_MouseRightButtonDown" ShowInTaskbar="False" WindowStartupLocation="CenterScreen" ResizeMode="NoResize" WindowStyle="None"  Background="Black" Loaded="Window_Loaded" Topmost="True">
+	<Window.ContextMenu>
+		<ContextMenu>
+			<Button Content="Settings" Click="b_Click" />
+		</ContextMenu>
+	</Window.ContextMenu>
+	<StackPanel x:Name="PanelElem" Orientation="Horizontal" Margin="0,0,0,0">
+    </StackPanel>
+
+</Window>

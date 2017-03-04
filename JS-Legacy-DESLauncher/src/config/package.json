@@ -1,0 +1,14 @@
+{
+  "name": "slauncher.config",
+  "main": "config.html",
+  "window": {
+    "id": "settingsWnd",
+    "title": "Config",
+    "width": 500,
+    "height": 400,
+    "min_width": 400,
+    "min_height": 300,
+    "focus": true,
+    "always_on_top": true
+  }
+}

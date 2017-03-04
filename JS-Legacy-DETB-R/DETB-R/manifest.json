@@ -1,0 +1,13 @@
+{
+  "package": {
+    "name": "DETB",
+    "version": "0.1.0",
+    "description": "Taskbar!",
+    "image": null,
+    "execType": "standalone",
+    "execFiles": {
+      "win32": "DETB-R.exe"
+    }
+  },
+  "settings": [ ]
+}

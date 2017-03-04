@@ -1,0 +1,8 @@
+<Window x:Class="DE.Core.Shell.Desktop.DesktopContainer"
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	Title="Desktop">
+	<Grid>
+		
+	</Grid>
+</Window>

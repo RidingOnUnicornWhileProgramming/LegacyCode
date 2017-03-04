@@ -1,0 +1,44 @@
+{
+  "package": {
+    "name": "Simple Start Menu Launcher",
+    "version": "0.1.0",
+    "description": "A simple start menu launcher. Code example. Recommended size 50x50 px",
+    "image": null,
+    "execType": "standalone",
+    "execFiles": {
+      "win32": "SStart.exe"
+    }
+  },
+  "settings": [
+    [
+      "useFontColor",
+      "Use text's color",
+      "If set to 1, color settings below will be ignored and text's color will be used instead. [0/1]",
+      "0"
+    ],
+    [
+      "colorR",
+      "Color R",
+      "Color of the icon - R in RGB. [0-255]",
+      "0"
+    ],
+    [
+      "colorG",
+      "Color G",
+      "Color of the icon - G in RGB. [0-255]",
+      "0"
+    ],
+    [
+      "colorB",
+      "Color B",
+      "Color of the icon - B in RGB. [0-255]",
+      "0"
+    ],
+    [
+      "imageFile",
+      "Image file",
+      "Should be transparent. Start with / if absolute path or with . if relative.\nFor example: /C:/file.png, ./icon.png",
+      "./icon.png"
+    ]
+  ]
+}
